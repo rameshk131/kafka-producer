@@ -9,7 +9,7 @@ public class StudentController {
 	@GetMapping("/welcome")
 	String welcome() {
 		
-		return "Welcome to java and spring boot application !1st commit";
+		return "Welcome to java and spring boot application ! 3rd commit";
 	}
 
 }
