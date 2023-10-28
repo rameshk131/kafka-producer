@@ -15,6 +15,6 @@ public class StudentController {
 	@GetMapping("/health")
 	String health() {
 		
-		return "Spring boot app server is up and running.......";
+		return "Spring boot app server is up and running......."
 	}
 }
