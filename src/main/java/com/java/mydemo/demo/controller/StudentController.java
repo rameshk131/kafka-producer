@@ -11,5 +11,10 @@ public class StudentController {
 		
 		return "Welcome to java and spring boot application ! 3rd commit";
 	}
-
+	
+	@GetMapping("/health")
+	String health() {
+		
+		return "Spring boot app server is up and running.......";
+	}
 }
