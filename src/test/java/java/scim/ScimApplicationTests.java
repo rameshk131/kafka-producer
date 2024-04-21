@@ -1,10 +1,10 @@
-package com.java.mydemo.demo;
+package java.scim;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class DemoApplicationTests {
+class ScimApplicationTests {
 
 	@Test
 	void contextLoads() {
